@@ -1,7 +1,7 @@
 {
-  "name": "reduce-reducers",
-  "version": "1.0.4",
-  "description": "Reduce multiple reducers into a single reducer",
+  "name": "@elastik/reduce-reducers",
+  "version": "1.0.5",
+  "description": "Reduce multiple reducers into a single reducer. This is a fork of reduce-reducers with dependabot updates applied.",
   "keywords": [
     "reduce",
     "reducers",
@@ -17,7 +17,7 @@
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "index.d.ts",
-  "repository": "redux-utilities/reduce-reducers",
+  "repository": "best-performance/reduce-reducers",
   "scripts": {
     "precommit": "pretty-quick --staged",
     "format": "pretty-quick",
