@@ -8,6 +8,9 @@
     "redux"
   ],
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "author": "Andrew Clark <acdlite@me.com>",
   "files": [
@@ -28,7 +31,8 @@
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src --out-dir=lib",
     "build:es": "babel src --out-dir=es",
     "build": "run-p build:**",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "npmLoginBeforePublish": "npm login --scope=@elastik"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
